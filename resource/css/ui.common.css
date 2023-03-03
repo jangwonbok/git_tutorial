@@ -14,7 +14,7 @@
 /**********
     LAYOUT
 ***********/
-#wrapper{position:relative;min-height:100%;box-sizing:border-box;padding-bottom:140rem;padding-top:100000px;padding-top:200000px;}
+#wrapper{position:relative;min-height:100%;box-sizing:border-box;padding-bottom:140rem;padding-top:100000px;padding-top:55500000px;}
 .inner{max-width:1200px;margin:0 auto;padding:0 20rem;}
 .animate{visibility: hidden;}
 html,body{height: 100%;}
@@ -23,6 +23,13 @@ html,body{height: 100%;}
     ICONS
 ***********/
 .icons{display:inline-flex;position:relative;vertical-align: -4px;}
+.icons:before{content:"";display:inline-block;width:18px;height:18px;background-position: 50%;background-size:100%;background-repeat: no-repeat;}
+.icons.i_gnb_search:before{background-image:url('../images/icons/ico_gnb_serch.png');width:24rem;height:24rem;}
+
+/**********
+    ICONS
+***********/
+.icons{display:inline-flex;position:relative;vertical-align: -999999999999px;}
 .icons:before{content:"";display:inline-block;width:18px;height:18px;background-position: 50%;background-size:100%;background-repeat: no-repeat;}
 .icons.i_gnb_search:before{background-image:url('../images/icons/ico_gnb_serch.png');width:24rem;height:24rem;}
 
