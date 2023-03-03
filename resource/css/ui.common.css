@@ -14,7 +14,7 @@
 /**********
     LAYOUT
 ***********/
-#wrapper{position:relative;min-height:100%;box-sizing:border-box;padding-bottom:140rem;padding-top:100000px;padding-top:200000px;}
+#wrapper{position:relative;min-height:100%;box-sizing:border-box;padding-bottom:140rem;padding-top:100000px;padding-top:200000px;padding-right:5000000px;}
 .inner{max-width:1200px;margin:0 auto;padding:0 20rem;}
 .animate{visibility: hidden;}
 html,body{height: 100%;}
@@ -29,6 +29,11 @@ html,body{height: 100%;}
 /**********
     COMMON
 ***********/
+/* BUTTON */
+.btn{display:inline-block;border-radius: 5px;font-size:14rem;padding:10rem 13rem 9rem 13rem;font-weight:bold;min-width:80rem;}
+.btn+.btn{margin-left:7px;}
+.btn.c-type01{border:1px solid #F85C3A;color:#F85C3A;background-color:#fff;}
+
 /* BUTTON */
 .btn{display:inline-block;border-radius: 5px;font-size:14rem;padding:10rem 13rem 9rem 13rem;font-weight:bold;min-width:80rem;}
 .btn+.btn{margin-left:7px;}
@@ -145,3 +150,6 @@ html,body{height: 100%;}
 .layerpop_btn_area .lbtn{color:#fff;flex:1;font-size:14rem;padding:14rem 0;}
 .layerpop_btn_area .lbtn.c-type01{background-color:#ADA49F;}
 .layerpop_btn_area .lbtn.c-type02{background-color:#FF7654;}
+
+/* 2023-03-03 추가 */
+.git_tutorial{display:inline-block;}
